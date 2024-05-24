@@ -3,6 +3,6 @@ python:
 - "3.9"
 install: "pip install -r requirements.txt"
 script:
-- cd Main
+- cd main
 - python manage.py
 - python -m pytest
